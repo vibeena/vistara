@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>A farm project website design</title>
+    <link rel="stylesheet" href="MyStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,800;0,900;1,900&display=swap">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/vistara_logo.jpg" width="100" height="100"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu() "></i>
+                <ul>
+                    <li><a href="">Our Expertise</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <div class="text-box">
+                <h1>Build your dream farmhouse</h1>
+                <p>on your own farmland <br> behold the beauty of nature</p>
+                <form>
+                    <a href="https://www.youtube.com/" class="our-btn" target="_blank">
+                    <input type="button" value="ViewProjectVideo">
+                    </a>
+                </form>
+            </div>
+    </section>
+    <!--second page-->
+    <section class="RealEstate">
+        <h1>We know how important trust is in real estate</h1>
+        <p>Build your dreams with vistara farmland. we are completely trasparent with you as with the government.What you see is what you get. no hidden charges. no hidden problems</p>
+        <div class="row">
+            <div class="our-col">
+                <h1> 28+ </h1>
+                <p>Years of experience</p>
+            </div>
+            <div class="our-col">
+                <h1> 6+ </h1>
+                <p>locations in india</p>
+            </div>
+            <div class="our-col">
+                <h1> 22+ </h1>
+                <p>Acres developed across india</p>
+            </div>
+            <div class="our-col">
+                <h1> 10+ </h1>
+                <p>affiliated clubs & resorts</p>
+            </div>     
+        </div>
+    </section>
+
+    <!--Project Page-->
+    
+    <section class="project">
+        <h1>A glimpse of our projects</h1>
+        <p>You are our family</p>
+        <div class="row">
+            <div class="project-col">
+                <img src="images/Live_Image1.jpg">
+                <div class="desc">Image1 </div>
+            </div>
+            <div class="project-col">
+                <img src="images/Live_Image2.jpg">
+                <div class="desc">Image2</div>
+            </div>
+            <div class="project-col">
+                <img src="images/Live_Image3.jpg">
+                <div class="desc"> Image3 </div>               
+            </div>
+            <div class="project-col">
+                <img src="images/Live_Image4.jpg">
+                <div class="desc"> Image4 </div>  
+            </div>
+            <div class="project-col">
+                <img src="images/Live_Image5.jpg">
+                <div class="desc"> Image5 </div>  
+            </div>
+            <div class="project-col">
+                <img src="images/Live_Image6.jpg">
+                <div class="desc"> Image6 </div>  
+            </div>
+        </div>
+    </section>
+     
+     <!--Facebook ICON -->
+    <a class="social-icon" href="https://www.facebook.com/" target="_blank">
+    <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+
+     <!--Youtube ICON -->
+    <a class="social-icon" href="https://www.youtube.com/" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+    </a>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--Java script for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>

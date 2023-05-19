@@ -1,0 +1,89 @@
+/* navigation section */
+#NavBar{
+    flex-direction: column;
+}
+
+#logo{
+    width: 555px;
+    height: 15px;
+    margin: 0px 11px;
+}
+
+#NavBar ul li a{
+font-size: 1rem;
+padding: 0px 4px;
+padding-bottom: 8px;
+}
+/* home section*/
+
+#home{
+
+    height:370px;
+    padding: 124px 3px;
+    
+}
+
+#home::before{
+
+    height:480px;
+    
+}
+
+#row {
+    flex-direction: column;
+     }
+
+/* Realestate section */
+
+
+#row .our-col{
+    padding: 14px;
+    margin: 0px 15px;
+    margin-bottom: 20px;
+    }
+
+/* projects section  */
+
+#projects{
+    flex-wrap: wrap;
+}
+
+#projects img{
+    width: 270px;
+    padding:6px;
+    
+}
+
+#projects img{
+    height:auto;
+    
+}
+
+
+
+
+
+/* contacts section  */
+
+#contact-box form{
+
+    width:80%;
+
+}
+
+
+/* footer section */
+
+/* utility classes  */
+
+.heading-primary {
+font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+
+
